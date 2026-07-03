@@ -10,8 +10,7 @@
  *   ADMIN_USER     - defaults to "admin"
  *   ADMIN_PASS     - defaults to "admin123"   <-- CHANGE THIS IN PRODUCTION
  *   AUTH_SECRET    - defaults to "hs-watches-secret" <-- CHANGE THIS IN PRODUCTION
- *   CORS_ORIGIN    - defaults to "*" (allow any site). Set to your storefront's
- *                    domain once it's live, e.g. https://www.yourstore.com
+ *   CORS_ORIGIN    - https://hs-watcheshtml.vercel.app/
  */
 
 const express = require("express");
