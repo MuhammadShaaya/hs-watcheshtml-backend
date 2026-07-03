@@ -10,7 +10,7 @@
  *   ADMIN_USER     - HASSU X SAIYYAN
  *   ADMIN_PASS     - #$W@TC#E$13579
  *   AUTH_SECRET    - #$W@TC#E$13579
- *   CORS_ORIGIN    - https://hs-watcheshtml.vercel.app/
+ *   CORS_ORIGIN    - https://hs-watcheshtml.vercel.app
  */
 
 const express = require("express");
