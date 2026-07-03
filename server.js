@@ -7,9 +7,9 @@
  *
  * Env vars (all optional, sane defaults provided):
  *   PORT           - defaults to 4000
- *   ADMIN_USER     - defaults to "admin"
- *   ADMIN_PASS     - defaults to "admin123"   <-- CHANGE THIS IN PRODUCTION
- *   AUTH_SECRET    - defaults to "hs-watches-secret" <-- CHANGE THIS IN PRODUCTION
+ *   ADMIN_USER     - HASSU X SAIYYAN
+ *   ADMIN_PASS     - #$W@TC#E$13579
+ *   AUTH_SECRET    - #$W@TC#E$13579
  *   CORS_ORIGIN    - https://hs-watcheshtml.vercel.app/
  */
 
