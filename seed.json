@@ -1,21 +1,229 @@
 {
   "products": [
-    { "id": 1, "name": "Meridian Automatic Chronograph", "category": "Chronograph", "price": 42500, "oldPrice": 48900, "stock": 12, "featured": true, "rating": 4.8, "image": "https://picsum.photos/seed/meridian/700/700", "description": "A precision chronograph housed in brushed stainless steel, with a sunburst black dial and sapphire crystal." },
-    { "id": 2, "name": "Calibre Noir", "category": "Automatic", "price": 38900, "oldPrice": null, "stock": 8, "featured": true, "rating": 4.7, "image": "https://picsum.photos/seed/calibrenoir/700/700", "description": "All-black PVD case with a skeletonised movement visible through the case back." },
-    { "id": 3, "name": "Abyssal Diver 300", "category": "Diver", "price": 35900, "oldPrice": 39900, "stock": 15, "featured": false, "rating": 4.6, "image": "https://picsum.photos/seed/abyssal/700/700", "description": "300m water resistance, unidirectional bezel, and a Super-LumiNova dial for deep-sea legibility." },
-    { "id": 4, "name": "Aria Mother-of-Pearl", "category": "Dress", "price": 29900, "oldPrice": null, "stock": 10, "featured": true, "rating": 4.9, "image": "https://picsum.photos/seed/aria/700/700", "description": "A refined dress watch with a genuine mother-of-pearl dial and diamond hour markers." },
-    { "id": 5, "name": "Vantage Smart Luxury", "category": "Smart", "price": 32900, "oldPrice": 36900, "stock": 20, "featured": false, "rating": 4.4, "image": "https://picsum.photos/seed/vantage/700/700", "description": "Hybrid smart-luxury timepiece with heart-rate tracking hidden behind a traditional analog face." },
-    { "id": 6, "name": "Obsidian Limited Edition", "category": "Limited Edition", "price": 68900, "oldPrice": null, "stock": 3, "featured": true, "rating": 5.0, "image": "https://picsum.photos/seed/obsidian/700/700", "description": "Limited to 200 pieces worldwide. Meteorite dial, 18k gold hands, individually numbered." },
-    { "id": 7, "name": "Regent GMT", "category": "GMT", "price": 44900, "oldPrice": 49900, "stock": 9, "featured": false, "rating": 4.7, "image": "https://picsum.photos/seed/regent/700/700", "description": "Dual time-zone GMT complication for the frequent traveller, finished in two-tone steel and gold." },
-    { "id": 8, "name": "Lumière Rose Quartz", "category": "Dress", "price": 27900, "oldPrice": null, "stock": 14, "featured": false, "rating": 4.5, "image": "https://picsum.photos/seed/lumiere/700/700", "description": "Rose-gold plated case with a soft pink sunray dial, designed for everyday elegance." },
-    { "id": 9, "name": "Centurion Perpetual Calendar", "category": "Complication", "price": 89900, "oldPrice": null, "stock": 2, "featured": true, "rating": 5.0, "image": "https://picsum.photos/seed/centurion/700/700", "description": "A perpetual calendar complication that tracks leap years automatically until 2100." },
-    { "id": 10, "name": "Voyager Pilot Chronograph", "category": "Pilot", "price": 36900, "oldPrice": 41900, "stock": 11, "featured": false, "rating": 4.6, "image": "https://picsum.photos/seed/voyager/700/700", "description": "Oversized pilot case with a bidirectional bezel and legible high-contrast dial." },
-    { "id": 11, "name": "Solène Emerald Cocktail", "category": "Cocktail", "price": 31900, "oldPrice": null, "stock": 7, "featured": false, "rating": 4.8, "image": "https://picsum.photos/seed/solene/700/700", "description": "Emerald-cut crystal bezel surrounding a deep green lacquered dial." },
-    { "id": 12, "name": "Ironclad Field Watch", "category": "Field", "price": 21900, "oldPrice": 24900, "stock": 25, "featured": false, "rating": 4.5, "image": "https://picsum.photos/seed/ironclad/700/700", "description": "Rugged matte-finish field watch built for durability without sacrificing refinement." },
-    { "id": 13, "name": "Monarch Tourbillon", "category": "Complication", "price": 124900, "oldPrice": null, "stock": 1, "featured": true, "rating": 5.0, "image": "https://picsum.photos/seed/monarch/700/700", "description": "A hand-finished flying tourbillon, visible through an open aperture at six o'clock." },
-    { "id": 14, "name": "Coastline Quartz Diver", "category": "Diver", "price": 18900, "oldPrice": null, "stock": 30, "featured": false, "rating": 4.3, "image": "https://picsum.photos/seed/coastline/700/700", "description": "An accessible quartz diver with 200m water resistance and a ceramic bezel insert." },
-    { "id": 15, "name": "Belmont Skeleton", "category": "Skeleton", "price": 52900, "oldPrice": 57900, "stock": 6, "featured": false, "rating": 4.7, "image": "https://picsum.photos/seed/belmont/700/700", "description": "Fully open-worked movement on both dial and case back, framed in polished steel." },
-    { "id": 16, "name": "Elysian Sapphire", "category": "Dress", "price": 33900, "oldPrice": null, "stock": 13, "featured": true, "rating": 4.8, "image": "https://picsum.photos/seed/elysian/700/700", "description": "A sapphire-crystal case back reveals the automatic movement beneath a midnight-blue dial." }
+    {
+      "id": 1,
+      "name": "Meridian Automatic Chronograph",
+      "category": "Chronograph",
+      "price": 42500,
+      "oldPrice": 48900,
+      "stock": 12,
+      "featured": true,
+      "rating": 4.8,
+      "description": "A precision chronograph housed in brushed stainless steel, with a sunburst black dial and sapphire crystal.",
+      "images": [
+        "https://picsum.photos/seed/meridian/700/700"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Calibre Noir",
+      "category": "Automatic",
+      "price": 38900,
+      "oldPrice": null,
+      "stock": 8,
+      "featured": true,
+      "rating": 4.7,
+      "description": "All-black PVD case with a skeletonised movement visible through the case back.",
+      "images": [
+        "https://picsum.photos/seed/calibrenoir/700/700"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Abyssal Diver 300",
+      "category": "Diver",
+      "price": 35900,
+      "oldPrice": 39900,
+      "stock": 15,
+      "featured": false,
+      "rating": 4.6,
+      "description": "300m water resistance, unidirectional bezel, and a Super-LumiNova dial for deep-sea legibility.",
+      "images": [
+        "https://picsum.photos/seed/abyssal/700/700"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Aria Mother-of-Pearl",
+      "category": "Dress",
+      "price": 29900,
+      "oldPrice": null,
+      "stock": 10,
+      "featured": true,
+      "rating": 4.9,
+      "description": "A refined dress watch with a genuine mother-of-pearl dial and diamond hour markers.",
+      "images": [
+        "https://picsum.photos/seed/aria/700/700"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Vantage Smart Luxury",
+      "category": "Smart",
+      "price": 32900,
+      "oldPrice": 36900,
+      "stock": 20,
+      "featured": false,
+      "rating": 4.4,
+      "description": "Hybrid smart-luxury timepiece with heart-rate tracking hidden behind a traditional analog face.",
+      "images": [
+        "https://picsum.photos/seed/vantage/700/700"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Obsidian Limited Edition",
+      "category": "Limited Edition",
+      "price": 68900,
+      "oldPrice": null,
+      "stock": 3,
+      "featured": true,
+      "rating": 5,
+      "description": "Limited to 200 pieces worldwide. Meteorite dial, 18k gold hands, individually numbered.",
+      "images": [
+        "https://picsum.photos/seed/obsidian/700/700"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Regent GMT",
+      "category": "GMT",
+      "price": 44900,
+      "oldPrice": 49900,
+      "stock": 9,
+      "featured": false,
+      "rating": 4.7,
+      "description": "Dual time-zone GMT complication for the frequent traveller, finished in two-tone steel and gold.",
+      "images": [
+        "https://picsum.photos/seed/regent/700/700"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Lumière Rose Quartz",
+      "category": "Dress",
+      "price": 27900,
+      "oldPrice": null,
+      "stock": 14,
+      "featured": false,
+      "rating": 4.5,
+      "description": "Rose-gold plated case with a soft pink sunray dial, designed for everyday elegance.",
+      "images": [
+        "https://picsum.photos/seed/lumiere/700/700"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Centurion Perpetual Calendar",
+      "category": "Complication",
+      "price": 89900,
+      "oldPrice": null,
+      "stock": 2,
+      "featured": true,
+      "rating": 5,
+      "description": "A perpetual calendar complication that tracks leap years automatically until 2100.",
+      "images": [
+        "https://picsum.photos/seed/centurion/700/700"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Voyager Pilot Chronograph",
+      "category": "Pilot",
+      "price": 36900,
+      "oldPrice": 41900,
+      "stock": 11,
+      "featured": false,
+      "rating": 4.6,
+      "description": "Oversized pilot case with a bidirectional bezel and legible high-contrast dial.",
+      "images": [
+        "https://picsum.photos/seed/voyager/700/700"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Solène Emerald Cocktail",
+      "category": "Cocktail",
+      "price": 31900,
+      "oldPrice": null,
+      "stock": 7,
+      "featured": false,
+      "rating": 4.8,
+      "description": "Emerald-cut crystal bezel surrounding a deep green lacquered dial.",
+      "images": [
+        "https://picsum.photos/seed/solene/700/700"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Ironclad Field Watch",
+      "category": "Field",
+      "price": 21900,
+      "oldPrice": 24900,
+      "stock": 25,
+      "featured": false,
+      "rating": 4.5,
+      "description": "Rugged matte-finish field watch built for durability without sacrificing refinement.",
+      "images": [
+        "https://picsum.photos/seed/ironclad/700/700"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Monarch Tourbillon",
+      "category": "Complication",
+      "price": 124900,
+      "oldPrice": null,
+      "stock": 1,
+      "featured": true,
+      "rating": 5,
+      "description": "A hand-finished flying tourbillon, visible through an open aperture at six o'clock.",
+      "images": [
+        "https://picsum.photos/seed/monarch/700/700"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Coastline Quartz Diver",
+      "category": "Diver",
+      "price": 18900,
+      "oldPrice": null,
+      "stock": 30,
+      "featured": false,
+      "rating": 4.3,
+      "description": "An accessible quartz diver with 200m water resistance and a ceramic bezel insert.",
+      "images": [
+        "https://picsum.photos/seed/coastline/700/700"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Belmont Skeleton",
+      "category": "Skeleton",
+      "price": 52900,
+      "oldPrice": 57900,
+      "stock": 6,
+      "featured": false,
+      "rating": 4.7,
+      "description": "Fully open-worked movement on both dial and case back, framed in polished steel.",
+      "images": [
+        "https://picsum.photos/seed/belmont/700/700"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Elysian Sapphire",
+      "category": "Dress",
+      "price": 33900,
+      "oldPrice": null,
+      "stock": 13,
+      "featured": true,
+      "rating": 4.8,
+      "description": "A sapphire-crystal case back reveals the automatic movement beneath a midnight-blue dial.",
+      "images": [
+        "https://picsum.photos/seed/elysian/700/700"
+      ]
+    }
   ],
   "orders": [],
   "messages": []
