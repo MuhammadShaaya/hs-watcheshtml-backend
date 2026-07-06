@@ -15,8 +15,8 @@
  *   PORT           - defaults to 4000
  *   MONGODB_DB     - defaults to "hswatches"
  *   ADMIN_USER     - defaults to "admin"
- *   ADMIN_PASS     - defaults to "admin123"   <-- CHANGE THIS IN PRODUCTION
- *   AUTH_SECRET    - defaults to "hs-watches-secret" <-- CHANGE THIS IN PRODUCTION
+ *   ADMIN_PASS     - #$W@TC#E$13579
+ *   AUTH_SECRET    - #$W@TC#E$135793216987
  *   CORS_ORIGIN    - defaults to "*"
  */
 
@@ -31,8 +31,8 @@ const cloudinary = require("cloudinary").v2;
 
 const PORT = process.env.PORT || 4000;
 const ADMIN_USER = process.env.ADMIN_USER || "admin";
-const ADMIN_PASS = process.env.ADMIN_PASS || "admin123";
-const AUTH_SECRET = process.env.AUTH_SECRET || "hs-watches-secret";
+const ADMIN_PASS = process.env.ADMIN_PASS || "#$W@TC#E$13579";
+const AUTH_SECRET = process.env.AUTH_SECRET || "#$W@TC#E$135793216987";
 const CORS_ORIGIN = process.env.CORS_ORIGIN || "*";
 const MONGODB_URI = process.env.MONGODB_URI;
 const MONGODB_DB = process.env.MONGODB_DB || "hswatches";
